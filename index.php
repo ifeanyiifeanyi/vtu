@@ -4,5 +4,5 @@ require "vendor/autoload.php";
 
 //echo  HomeController:: index();
 echo "<pre>";
-var_dump(\App\Core\Request::base());
+var_dump(\App\Core\Request::uri());
 echo "</pre>";
